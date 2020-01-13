@@ -1,0 +1,69 @@
+Searching 21839 files for "logoutModal"
+
+/Users/apple/code/Prosperous-badminton-education-foundation/public/storage:
+    ERROR: Unable to open file
+
+/Users/apple/code/Prosperous-badminton-education-foundation/resources/views/admins/news_list.blade.php:
+   61  
+   62    <!-- Logout Modal-->
+   63:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   64      <div class="modal-dialog" role="document">
+   65        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/resources/views/admins/includes/_footer.blade.php:
+   21  
+   22    <!-- Logout Modal-->
+   23:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   24      <div class="modal-dialog" role="document">
+   25        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/resources/views/admins/includes/_topbar.blade.php:
+  173                  </a>
+  174                  <div class="dropdown-divider"></div>
+  175:                 <a class="dropdown-item" href="{{ route('admin.logout') }}" data-toggle="modal" data-target="#logoutModal">
+  176                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+  177                    Logout
+
+/Users/apple/code/Prosperous-badminton-education-foundation/resources/views/admins/pages/news_list.blade.php:
+   58  
+   59    <!-- Logout Modal-->
+   60:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   61      <div class="modal-dialog" role="document">
+   62        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/storage/framework/views/3bce8627a8e065db2f2face9205bdd5886d469fe.php:
+   61  
+   62    <!-- Logout Modal-->
+   63:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   64      <div class="modal-dialog" role="document">
+   65        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/storage/framework/views/8a46734cdd6f11b3ff28f86080c8aa4e4cafb5df.php:
+  169                  </a>
+  170                  <div class="dropdown-divider"></div>
+  171:                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+  172                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+  173                    Logout
+
+/Users/apple/code/Prosperous-badminton-education-foundation/storage/framework/views/8cee56ee3e90578db19c3536a0654e50c8059f72.php:
+  309  
+  310    <!-- Logout Modal-->
+  311:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  312      <div class="modal-dialog" role="document">
+  313        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/storage/framework/views/af7a4c178f5f9bc99fde1269314329adc17b7b3f.php:
+   21  
+   22    <!-- Logout Modal-->
+   23:   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   24      <div class="modal-dialog" role="document">
+   25        <div class="modal-content">
+
+/Users/apple/code/Prosperous-badminton-education-foundation/storage/framework/views/eedec23cbadc057b45bda71d98ec857717116024.php:
+  173                  </a>
+  174                  <div class="dropdown-divider"></div>
+  175:                 <a class="dropdown-item" href="<?php echo e(route('admin.logout')); ?>" data-toggle="modal" data-target="#logoutModal">
+  176                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+  177                    Logout
+
+9 matches across 9 files
