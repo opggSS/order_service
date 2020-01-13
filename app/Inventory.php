@@ -27,7 +27,6 @@ class Inventory extends Model
            DB::table('inventories')->where('id' , $detail['inventory_id']) ->increment('quantity_available', $detail['quantity']);
         }
     }
-    
 
     public static function update_inventory($inventory_id, $origin_quantity, $updated_quantity){
         if($origin_quantity > $updated_quantity){
