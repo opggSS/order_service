@@ -15,6 +15,7 @@
 
 Route::resource('/inventory' , 'InventoryController');
 Route::resource('/order' , 'OrderController');
+Route::resource('/item' , 'ItemController');
 
 
 
