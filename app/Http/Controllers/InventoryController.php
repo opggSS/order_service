@@ -15,7 +15,7 @@ class InventoryController extends Controller
      */
     public function index()
     {
-        $inventory = Inventory::orderBy('id', 'desc')->paginate(2);
+        $inventory = Inventory::orderBy('id', 'desc')->paginate(10);
         return view('inventory.index')->withInventory($inventory);
 
     }
@@ -65,7 +65,7 @@ class InventoryController extends Controller
         Session::flash('success', 'The product '. $product->name .' was successfully updated!');
 
 
-        return redirect()->route('inventory.show', $product->id);       
+        return redirect()->route('inventory.show', $product->id);
     }
 
     /**
